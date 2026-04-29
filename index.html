@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samir Alam — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/media/image copy 2.png">
+</head>
+<body>
+
+  <!-- ░░ CURSOR ░░ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ░░ NAV ░░ -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">[</span>SA<span class="logo-bracket">]</span>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certificates" class="nav-link">Certs</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="#cv" class="nav-link cta-link">CV</a></li>
+    </ul>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="hero">
+    <div class="hero-bg-text">PORTFOLIO</div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">First Year Student &amp; Creative Developer</p>
+      <h1 class="hero-title reveal">
+        <span class="line">Samir</span>
+        <span class="line italic">Alam</span>
+      </h1>
+      <p class="hero-sub reveal">Crafting digital experiences with curiosity &amp; code.</p>
+      <div class="hero-cta reveal">
+        <a href="#about" class="btn-primary">Discover More</a>
+        <a href="#projects" class="btn-ghost">See Projects ↗</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span class="scroll-line"></span>
+      <span class="scroll-text">scroll</span>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about" class="section">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-photo-col">
+        <div class="photo-frame reveal">
+          <div class="photo-ring"></div>
+          <div class="photo-inner">
+            <!-- Replace src with your actual photo -->
+            <img src="/image copy 2.png"alt="Samir Alam" class="profile-photo"/>
+          </div>
+          <div class="photo-badge">CS '29</div>
+        </div>
+      </div>
+      <div class="about-text-col">
+        <h2 class="section-title reveal">Hello, I'm <em>Samir</em></h2>
+        <p class="about-desc reveal">
+          A passionate first-year Computer Science student exploring the intersection of technology and creativity. I believe in building things that are not only functional but beautifully crafted.
+        </p>
+        <p class="about-desc reveal">
+          Currently focused on <strong>web development</strong>, <strong>UI design</strong>, and everything in between. I learn fast, break things often, and improve every single day.
+        </p>
+        <div class="about-stats reveal">
+          <div class="stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Certificates</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">1st</span>
+            <span class="stat-label">Year</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS ░░ -->
+  <section id="skills" class="section section-alt">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title reveal">My <em>Toolkit</em></h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">⌨</div>
+        <h3>Languages</h3>
+        <div class="skill-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>C++</span><span>SQL</span><span>PHP</span><span>C</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚙</div>
+        <h3>Frameworks</h3>
+        <div class="skill-tags">
+          <span>React</span><span>Node.js</span><span>Bootstrap</span><span>Tailwind</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">✦</div>
+        <h3>Design</h3>
+        <div class="skill-tags">
+          <span>Figma</span><span>Canva</span><span>UI/UX</span><span>Typography</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">◈</div>
+        <h3>Tools</h3>
+        <div class="skill-tags">
+          <span>Git</span><span>GitHub</span><span>VS Code</span><span>Linux</span>
+        </div>
+      </div>
+    </div>
+    <div class="skill-bars reveal">
+      <div class="bar-item">
+        <div class="bar-label"><span>Languages</span><span>85%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Frameworks</span><span>77%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="77"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Design</span><span>75%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="75"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Tools</span><span>80%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section id="projects" class="section">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title reveal">Selected <em>Work</em></h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-num">01</div>
+        <div class="project-tag">Web App</div>
+        <h3>Portfolio Website</h3>
+        <p>This very portfolio — designed from scratch with pure HTML, CSS, and JS. A showcase of aesthetic decisions and front-end craft. This Unique design approach emphasizes minimalism and user experience.</p>
+        <div class="project-stack"><span>HTML</span><span>ReactJs</span><span>JavaScript</span></div>
+        <a href="https://imsamiralam007.github.io/" target="_blank" class="project-link">View Project ↗</a>
+      </div>
+      <div class="project-card reveal featured">
+        <div class="project-num">02</div>
+        <div class="project-tag">Featured</div>
+        <h3>Fashionable Cloth Suggestion</h3>
+        <p>This very Fashionable Cloth Suggestion — designed from scratch with pure HTML, CSS, and JS. This project showcases a unique approach to fashion advice, allowing users to input their preferences and receive tailored outfit suggestions.</p>
+        <div class="project-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <a href="https://room-paint-outfit-co-amik.bolt.host/" target="_blank" class="project-link">View Project ↗</a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">03</div>
+        <div class="project-tag">JavaScript</div>
+        <h3>Lpu CGPA Calculator</h3>
+        <p>A JavaScript-based CGPA calculator that allows students to input their Marks and calculates their CGPA with a user-friendly interface. This project helps students easily calculate their CGPA and understand their academic performance.</p>
+        <div class="project-stack"><span>JavaScript</span><span>HTML</span><span>CSS</span><span>ChatGPT</span></div>
+        <a href="https://lpu-tgpa-calculator-1r6u.bolt.host/" target="_blank" class="project-link">View Project ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CERTIFICATES ░░ -->
+  <section id="certificates" class="section section-alt">
+    <div class="section-label">04 — Certificates</div>
+    <h2 class="section-title reveal">Earned <em>Credentials</em></h2>
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="cert-logo">🎓</div>
+        <div class="cert-info">
+          <h3>Introduction to Python</h3>
+          <p class="cert-issuer">Saylor</p>
+          <p class="cert-date">2026</p>
+        </div>
+        <a href="/Samir_python_certificate.pdf"  target="_blank" class="cert-badge">View ↗</a>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-logo">🏅</div>
+        <div class="cert-info">
+          <h3>Artificial Intelligence</h3>
+          <p class="cert-issuer">Infosys Springboard</p>
+          <p class="cert-date">2026</p>
+        </div>
+        <a href="/aicertificate.pdf"  target="_blank" class="cert-badge">View ↗</a>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-logo">✦</div>
+        <div class="cert-info">
+          <h3>Collective Leadership</h3>
+          <p class="cert-issuer">The Open University</p>
+          <p class="cert-date">2025</p>
+        </div>
+        <a href="/collective leadership.pdf" class="cert-badge">View ↗</a>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-logo">⚡</div>
+        <div class="cert-info">
+          <h3>JavaScript Algorithms</h3>
+          <p class="cert-issuer">freeCodeCamp</p>
+          <p class="cert-date">2025</p>
+        </div>
+        <a href="#" class="cert-badge">View ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CV ░░ -->
+  <section id="cv" class="section cv-section">
+    <div class="section-label">05 — Résumé</div>
+    <div class="cv-inner reveal">
+      <h2 class="section-title">Download My <em>CV</em></h2>
+      <p class="cv-desc">A concise overview of my skills, projects, and academic journey — ready for opportunities.</p>
+      <a href="/Samir-cv.pdf" class="btn-primary cv-btn" download>
+        <span class="dl-icon">↓</span> Download CV
+      </a>
+      <p class="cv-note">Last updated: April 2025 · PDF · 1 page</p>
+    </div>
+  </section>
+
+  <!-- ░░ EDUCATION ░░ -->
+  <section id="education" class="section section-alt">
+    <div class="section-label">06 — Education</div>
+    <h2 class="section-title reveal">Academic <em>Journey</em></h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2025 — Present</span>
+          <h3>B.Tech in Computer Science</h3>
+          <p class="tl-place">Lovely Professional University</p>
+          <p class="tl-desc">First year — studying Data Structures, and Web Technologies. CGPA: 8.56/10</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2022 — 2024</span>
+          <h3>Higher Secondary (XII)</h3>
+          <p class="tl-place">Alpine Secondary School</p>
+          <p class="tl-desc">PCM with Computer Science. GPA: 3.05/4</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2011 — 2022</span>
+          <h3>Secondary (X)</h3>
+          <p class="tl-place">Shree Mangal Secondary School</p>
+          <p class="tl-desc">Completed with 74.75% </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SERVICES ░░ -->
+  <section id="services" class="section">
+    <div class="section-label">07 — Services</div>
+    <h2 class="section-title reveal">What I <em>Offer</em></h2>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="svc-num">01</div>
+        <h3>Web Development</h3>
+        <p>Clean, responsive websites built with modern HTML, CSS, and JavaScript. From landing pages to multi-page apps.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="svc-num">02</div>
+        <h3>UI Design</h3>
+        <p>Visually compelling interface mockups using Figma. Focused on usability, hierarchy, and aesthetic consistency.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="svc-num">03</div>
+        <h3>Python Scripting</h3>
+        <p>Automation scripts, data analysis tools, and small CLI apps tailored to solve specific problems efficiently.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="svc-num">04</div>
+        <h3>Freelance Support</h3>
+        <p>Available for academic projects, startup MVPs, and personal site builds. Affordable rates, high commitment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact" class="section section-alt">
+    <div class="section-label">08 — Contact</div>
+    <div class="contact-wrapper">
+      <div class="contact-text reveal">
+        <h2 class="section-title">Let's <em>Connect</em></h2>
+        <p>Open to collaborations, internships, and freelance projects. Don't hesitate to reach out.</p>
+        <div class="contact-info">
+          <a href="mailto:1sameeralam21@gmail.com" class="contact-item">
+            <span class="ci-label">Email</span>
+            <span>1sameeralam21@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com" class="contact-item" target="_blank">
+            <span class="ci-label">LinkedIn</span>
+            <span>linkedin.com/in/samiralamnep</span>
+          </a>
+          <a href="https://github.com/Imsamiralam007" class="contact-item" target="_blank">
+            <span class="ci-label">GitHub</span>
+            <span>github.com/Imsamiralam007</span>
+          </a>
+        </div>
+      </div>
+      <form action="https://formsubmit.co/1sameeralam21@gmail.com" method="POST"  class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary form-submit" target="_blank">Send Message ↗</button>
+        <p class="form-success" id="formSuccess">✓ Message sent! I'll get back to you soon.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-bracket">[</span>SA<span class="logo-bracket">]</span>
+      </div>
+      <p class="footer-tagline"><em>Building one project at a time.</em></p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#cv">CV</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/Imsamiralam007" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/samiralamnep/" aria-label="LinkedIn">LI</a>
+        <a href="https://x.com/SamiralamNep" aria-label="X">X</a>
+        <a href="https://www.instagram.com/imsamiralam007/" aria-label="Instagram">IG</a>
+      </div>
+      <p class="footer-copy">© 2025 Samir Alam · Designed &amp; Built with ♥</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
