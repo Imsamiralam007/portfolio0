@@ -467,7 +467,6 @@ body::before {
 }
 
 .skill-bars { display: flex; flex-direction: column; gap: 1.4rem; }
-.bar-item {}
 .bar-label {
   display: flex; justify-content: space-between;
   font-size: 0.82rem;
